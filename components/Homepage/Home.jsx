@@ -1,8 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React, {useState} from "react";
 import HomeTabs from "./HomeTabs";
-import Features from "./Features";
-import Resources from "./Resources";
 import HomeContent from "./HomeContent";
 
 const Home = () => {
