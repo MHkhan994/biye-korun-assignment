@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Introduction",
+    "photo": "/features/introduction.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#9908F5"
+  },
+  {
+    "title": "Dashboard",
+    "photo": "/public/features/dashboard.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#7AA116"
+  },
+  {
+    "title": "Package, Fees and Finance",
+    "photo": "/public/features/package.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#C925D1"
+  },
+  {
+    "title": "Blue Badge",
+    "photo": "/public/features/blue_badge.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#DD9F06"
+  },
+  {
+    "title": "Sign In & Sign Up",
+    "photo": "/public/features/signIn.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#CC176A"
+  },
+  {
+    "title": "Chat",
+    "photo": "/public/features/chat.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#232F3E"
+  },
+  {
+    "title": "Be social",
+    "photo": "/public/features/beSocial.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#9908F5"
+  },
+  {
+    "title": "Exclusive Services",
+    "photo": "/public/features/services.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#00C177"
+  }
+]

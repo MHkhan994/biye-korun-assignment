@@ -13,7 +13,7 @@ const HomeTabs = ({ setCurrentTab, currentTab }) => {
         <h1 className="lg:text-2xl text-xl font-bold">Documentations</h1>
         <div className="bg-[#076a491a] text-green text-sm rounded-[5px] flex border border-[#0000001a] h-[40px]">
           <button
-            className={`lg:w-[140px] w-[84px] h-full rounded-[5px] ${
+            className={`lg:w-[140px] w-[84px] h-full rounded-[4px] ${
               currentTab === "features" ? "bg-green text-white" : ""
             }`}
             onClick={() => setCurrentTab("features")}
@@ -21,7 +21,7 @@ const HomeTabs = ({ setCurrentTab, currentTab }) => {
             Features
           </button>
           <button
-            className={`lg:w-[140px] w-[84px] h-full rounded-[5px] ${
+            className={`lg:w-[140px] w-[84px] h-full rounded-[4px] ${
               currentTab === "resources" ? "bg-green text-white" : ""
             }`}
             onClick={() => setCurrentTab("resources")}
@@ -34,7 +34,7 @@ const HomeTabs = ({ setCurrentTab, currentTab }) => {
       <div className="flex gap-[20px] items-center justify-between mt-[20px] lg:mt-0">
         <form
           onSubmit={handleSubmit}
-          className="lg:w-[400px] w-[276px] h-[40px] bg-white rounded-[6px] border flex items-center gap-2 px-[20px]"
+          className="md:w-[400px] w-[276px] h-[40px] bg-white rounded-[6px] border flex items-center gap-2 px-[20px]"
         >
           <input
             type="text"

@@ -19,7 +19,7 @@
 }
 
 .my-container {
-  @apply lg:max-w-[1200px] mx-auto md:w-[90%] w-full;
+  @apply lg:max-w-[1200px] mx-auto md:w-full w-full;
 }
 
 .bg-gray {
