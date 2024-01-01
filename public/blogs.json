@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1111,
+    "title": "Download Android App",
+    "description": "Get started with step-by-step tutorials to launch your first application",
+    "photo": "/blogs/blog1.png"
+  },
+  {
+    "id": 1112,
+    "title": "BiyeKorun Success Stories",
+    "description": "Get started with step-by-step tutorials to launch your first application",
+    "photo": "/blogs/blog2.png"
+  },
+  {
+    "id": 1113,
+    "title": "Connect with Social Media",
+    "description": "Get started with step-by-step tutorials to launch your first application",
+    "photo": "/blogs/blog3.png"
+  },
+  {
+    "id": 1114,
+    "title": "Connect with Social Media",
+    "description": "Get started with step-by-step tutorials to launch your first application",
+    "photo": "/blogs/blog4.png"
+  },
+  {
+    "id": 1115,
+    "title": "Connect with Social Media",
+    "description": "Get started with step-by-step tutorials to launch your first application",
+    "photo": "/blogs/blog3.png"
+  }
+]

@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import HomeTabs from "./HomeTabs";
 import HomeContent from "./HomeContent";
+import Blogs from "./Blogs";
 
 const Home = () => {
   const [currentTab, setCurrentTab] = useState("features");
@@ -14,16 +15,15 @@ const Home = () => {
 
       <div className="hidden md:block">
         <h3 className="text-lg font-bold">
-          Welcome to <span className="text-[#CC176A]">BiyeKorun</span>{" "}
-          Documentation.
+          Welcome to <span className="text-[#CC176A]">BiyeKorun</span> Documentation.
         </h3>
-        <p className="text-sm text-gray-500 pt-2">
-          Find user guides, developer guides and API references.
-        </p>
+        <p className="text-sm text-gray-500 pt-2">Find user guides, developer guides and API references.</p>
       </div>
 
       {/* tabs and sidebars */}
       <HomeContent currentTab={currentTab} />
+
+      <Blogs currentTab={currentTab} />
     </div>
   );
 };
