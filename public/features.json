@@ -1,50 +1,65 @@
 [
   {
+    "id": 11,
     "title": "Introduction",
-    "photo": "/features/introduction.png",
+    "photo": "/features/introdtion.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#9908F5"
   },
   {
+    "id": 12,
     "title": "Dashboard",
-    "photo": "/public/features/dashboard.png",
+    "photo": "/features/dashboard.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#7AA116"
   },
   {
+    "id": 13,
     "title": "Package, Fees and Finance",
-    "photo": "/public/features/package.png",
+    "photo": "/features/package.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#C925D1"
   },
   {
+    "id": 14,
     "title": "Blue Badge",
-    "photo": "/public/features/blue_badge.png",
+    "photo": "/features/blue_badge.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#DD9F06"
   },
   {
+    "id": 15,
     "title": "Sign In & Sign Up",
-    "photo": "/public/features/signIn.png",
+    "photo": "/features/signIn.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#CC176A"
   },
   {
+    "id": 16,
     "title": "Chat",
-    "photo": "/public/features/chat.png",
+    "photo": "/features/chat.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#232F3E"
   },
   {
+    "id": 17,
     "title": "Be social",
-    "photo": "/public/features/beSocial.png",
+    "photo": "/features/beSocial.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#9908F5"
   },
   {
+    "id": 18,
     "title": "Exclusive Services",
-    "photo": "/public/features/services.png",
+    "photo": "/features/services.png",
     "message": "Get details about BiyeKorun requirements, and directory structure",
     "color": "#00C177"
+  },
+  {
+    "id": 16,
+    "title": "Chat",
+    "photo": "/features/chat.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure",
+    "color": "#232F3E"
   }
 ]
