@@ -1,0 +1,56 @@
+[
+  {
+    "id": 31,
+    "title": "Java",
+    "photo": "/resources/java.svg",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 32,
+    "title": "JavaScript",
+    "photo": "/resources/javascript.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 33,
+    "title": "PHP",
+    "photo": "/resources/php.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 34,
+    "title": ".NET",
+    "photo": "/resources/net.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 35,
+    "title": "Python",
+    "photo": "/resources/python.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 36,
+    "title": "Azure DevOps",
+    "photo": "/resources/devOps.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 37,
+    "title": "C++",
+    "photo": "/resources/c++.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 38,
+    "title": "CSS",
+    "photo": "/resources/css.png",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  },
+  {
+    "id": 39,
+    "title": "Java",
+    "photo": "/resources/java.svg",
+    "message": "Get details about BiyeKorun requirements, and directory structure"
+  }
+]
