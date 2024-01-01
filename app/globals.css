@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,29 +7,33 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --color-purple:#9908F5;
-  --color-gray:#F5F5F5;
-  --color-green:#076A49;
+  --color-purple: #9908f5;
+  --color-gray: #f5f5f5;
+  --color-green: #076a49;
 }
 
 /* =======common classes======= */
 
-.font-inter{
-  font-family: 'Inter', sans-serif;
+.font-inter {
+  font-family: "Inter", sans-serif;
 }
 
-.my-container{
-  @apply lg:max-w-[1200px] mx-auto md:w-[90%] w-[95%]
+.my-container {
+  @apply lg:max-w-[1200px] mx-auto md:w-[90%] w-full;
 }
 
-.bg-gray{
+.bg-gray {
   background-color: var(--color-gray);
 }
 
-.bg-green{
-  background-color: var(--color-green)
+.bg-green {
+  background-color: var(--color-green);
 }
 
-.bg-nav{
+.text-green {
+  color: var(--color-green);
+}
+
+.bg-nav {
   background-color: var(--color-purple);
 }

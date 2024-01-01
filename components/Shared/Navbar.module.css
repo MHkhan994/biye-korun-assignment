@@ -1,0 +1,3 @@
+.nav_button{
+    @apply lg:h-[50px] lg:w-[50px] h-[36px] w-[36px] rounded-full bg-white
+}
