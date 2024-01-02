@@ -22,7 +22,7 @@ const Documentation = () => {
 
       <hr className="my-[30px]" />
 
-      <div className="grid relative min-h-64 lg:grid-cols-[1fr_3fr] grid-cols-1 gap-[30px]">
+      <div className="grid relative min-h-64 md:grid-cols-[1fr_3fr] grid-cols-1 gap-[30px]">
         {/* sidebar accordion */}
         <Accordion menuStates={menuStates} />
         {/* doccumentation content */}
@@ -30,8 +30,8 @@ const Documentation = () => {
 
         {/* documentation mobile view */}
         <dialog id="my_modal_4" className="modal lg:hidden lg:invisible">
-          <div className="modal-box w-11/12 max-w-5xl" style={{height: "1200px"}}>
-            <div className="modal-action h-full">
+          <div className="modal-box w-11/12 max-w-5xl">
+            <div className="modal-action h-full pb-5">
               <button className="absolute right-5 top-5" onClick={() => closeModal("my_modal_4")}>
                 X
               </button>
