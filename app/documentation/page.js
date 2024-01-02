@@ -4,6 +4,7 @@ import "./document.css";
 import Introduction from "@/components/Documentation/FeatureDoc/Introduction";
 import Accordion from "@/components/Documentation/Accordion";
 import Image from "next/image";
+import {closeModal} from "@/common/ModalControll";
 
 const Documentation = () => {
   const [activeMenu, setActiveMenu] = useState("overview");
@@ -26,6 +27,18 @@ const Documentation = () => {
         <Accordion menuStates={menuStates} />
         {/* doccumentation content */}
         <div className="bg-white w-full p-[30px] hidden md:block rounded-[10px]">{activeSubMenu === "introduction" && <Introduction />}</div>
+
+        {/* documentation mobile view */}
+        <dialog id="my_modal_4" className="modal lg:hidden lg:invisible">
+          <div className="modal-box w-11/12 max-w-5xl" style={{height: "1200px"}}>
+            <div className="modal-action h-full">
+              <button className="absolute right-5 top-5" onClick={() => closeModal("my_modal_4")}>
+                X
+              </button>
+              <form method="dialog">{activeSubMenu === "introduction" && <Introduction />}</form>
+            </div>
+          </div>
+        </dialog>
       </div>
     </div>
   );
