@@ -8,7 +8,7 @@ const Home = () => {
   const [currentTab, setCurrentTab] = useState("features");
 
   return (
-    <div className="bg-gray my-container min-h-screen lg:p-[30px] p-[20px]">
+    <div className="bg-gray my-container min-h-screen lg:p-[30px] p-[20px] rounded-[8px]">
       <HomeTabs setCurrentTab={setCurrentTab} currentTab={currentTab} />
 
       <hr className="lg:my-8 md:my-5 hidden md:block" />
