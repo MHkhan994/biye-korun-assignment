@@ -11,7 +11,7 @@ const HomeContent = ({currentTab}) => {
   return (
     <div className="grid lg:grid-cols-[2fr_1fr] md:grid-cols-2 grid-cols-1 lg:mt-[30px] mt-[20px] gap-[20px] lg:gap-0">
       {/* left side tab */}
-      <div className="bg-white md:min-h-[530px] w-full lg:p-[30px] p-[20px] rounded-[10px] border">
+      <div className="bg-white md:min-h-[530px] w-full lg:p-[30px] ps-[20px] py-[20px] rounded-[10px] border">
         <div className="md:hidden pb-[16px]">
           <h3 className="text-base lg:text-xl font-bold">
             Welcome to <span className="text-[#CC176A]">BiyeKorun</span>
@@ -25,7 +25,7 @@ const HomeContent = ({currentTab}) => {
         <div>
           {currentTab === "features" ? (
             <div
-              className={`${homeStyles.tab_container} grid lg:grid-cols-2 grid-cols-1 justify-center gap-[20px] md:h-[412px] w-full tab-container pr-3 overflow-y-auto`}
+              className={`${homeStyles.tab_container} grid lg:grid-cols-2 grid-cols-1 justify-center gap-[20px] md:h-[412px] h-[800px] w-full tab-container pr-3 overflow-y-auto`}
             >
               {features && features.map((f) => <InfoCards key={f.id} item={f} />)}
             </div>
